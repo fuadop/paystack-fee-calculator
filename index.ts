@@ -1,7 +1,7 @@
 const CAP_FEE: number = 2000;
 const NGN_WAIVE_LIMIT_PRICE: number = 2500;
 const NGN_PERCENTAGE: number = 1.5 / 100;
-const USD_PERCENTAGE: number = 3.5 /100;
+const USD_PERCENTAGE: number = 3.9 /100;
 
 
 class NGNFeeHelper {
