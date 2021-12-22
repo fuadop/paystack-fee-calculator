@@ -59,6 +59,10 @@ describe('USD Fees', () => {
     }).toThrowError('Charge should not be negative or zero');
   });
 
+  test('Should be 101.95', () => {
+    expect(calculateUSDFee(50)).toEqual(101.95)
+  });
+
   test('default test', () => {
     expect(typeof calculateUSDFee(charge)).toEqual('number');
   });
