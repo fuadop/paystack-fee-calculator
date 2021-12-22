@@ -4,7 +4,7 @@ exports.calculateUSDFee = void 0;
 const CAP_FEE = 2000;
 const NGN_WAIVE_LIMIT_PRICE = 2500;
 const NGN_PERCENTAGE = 1.5 / 100;
-const USD_PERCENTAGE = 3.5 / 100;
+const USD_PERCENTAGE = 3.9 / 100;
 class NGNFeeHelper {
     static calculateBelowWaive(charge) {
         if (typeof charge !== 'number') {

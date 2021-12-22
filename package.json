@@ -1,10 +1,11 @@
 {
   "name": "paystack-fee-calculator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Paystack fee calculator",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "pretest": "jest --clearCache",
     "test": "jest"
   },
   "repository": {
